@@ -41,7 +41,7 @@ app.get('/shopping-list', (req, res) => {
 });
 
 app.get('/recipes', (req, res) => {
-  res.json(ShoppingList.get());
+  res.json(Recipes.get());
 });
 
 app.listen(process.env.PORT || 8080, () => {
