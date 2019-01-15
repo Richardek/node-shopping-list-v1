@@ -40,7 +40,7 @@ app.get('/shopping-list', (req, res) => {
   res.json(ShoppingList.get());
 });
 
-app.get('/shopping-list', (req, res) => {
+app.get('/recipes', (req, res) => {
   res.json(ShoppingList.get());
 });
 
